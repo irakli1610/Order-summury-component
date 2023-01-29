@@ -1,0 +1,139 @@
+body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(224, 232, 255, 1)
+}
+#main_img{
+    border-radius: 20px 20px 0px 0px;
+}
+#main_div{
+    width: 450px;
+    height: 697px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+}
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37.04px;
+    display: flex;
+    justify-content: center;
+    margin-left: 48px;
+    margin-top: 45px;
+    margin-right: 48px;
+    margin-bottom: 17px;
+}
+#p1{
+    text-align:center;
+    margin-left: 48px; 
+    margin-right: 48px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(113, 127, 166, 1);
+}
+#plan_div{
+    display: flex;
+    width: 354px;
+    height: 98px;
+    margin-left: 48px;
+    margin-right: 48px;
+    background-color: rgba(247, 249, 255, 1);
+    border-radius: 11px;
+    justify-content: center;
+    align-items: center;
+}
+#plan_ins_div{
+    width:306px
+     ;
+    display: flex;
+    height: 48px;
+}
+#tune_icon{
+    margin-left: 0px;
+}
+#plan_fee{
+    display: inline;
+
+    width: 92px;
+    height: 48px;
+    margin-left: 20px;
+}
+
+#plan_p1{
+    display:flex;
+    height: 21px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    color: rgba(31, 46, 85, 1);
+    
+
+}
+#plan_p2{
+    height: 21px;
+    display:flex;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    color: rgba(113, 127, 166, 1);
+}
+#plan_a{
+   
+    display: inline;
+    margin-left: 94px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(56, 42, 225, 1);
+    margin-top: 15px;
+    
+}
+#plan_a:hover{
+    color:rgba(118, 108, 241, 1);
+    text-decoration: none;
+
+}
+
+#payment_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    background-color: #382AE1;
+    width: 354px;
+    margin-left: 48px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    height: 50px;
+    color: rgba(255, 255, 255, 1);
+}
+#payment_div:hover{
+    background-color:rgba(118, 108, 241, 1) ;
+    cursor:pointer;
+}
+#order{
+    margin-left: 176px;
+    margin-right: 178px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: rgba(113, 127, 166, 1);
+}
+#order:hover{
+    color: rgba(31, 46, 85, 1);
+    cursor:pointer;
+
+}
